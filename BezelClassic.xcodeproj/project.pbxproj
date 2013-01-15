@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D41F18FF16A5B0BC0062DACB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41F18FE16A5B0BC0062DACB /* Cocoa.framework */; };
+		D4EB6A3516A5B3F700E47792 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4EB6A3116A5B3F700E47792 /* Info.plist */; };
+		D4EB6A3616A5B3F700E47792 /* QSBCInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4EB6A3216A5B3F700E47792 /* QSBCInterface.xib */; };
+		D4EB6A3716A5B3F700E47792 /* QSBCInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EB6A3416A5B3F700E47792 /* QSBCInterfaceController.m */; };
+		D4EB6A6716A5B65F00E47792 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4EB6A6516A5B65F00E47792 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D41F18FB16A5B0BC0062DACB /* BezelClassic.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezelClassic.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41F18FE16A5B0BC0062DACB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D41F190716A5B0BC0062DACB /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		D41F190816A5B0BC0062DACB /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		D41F190916A5B0BC0062DACB /* Developer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
+		D41F190A16A5B0BC0062DACB /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
+		D41F190B16A5B0BC0062DACB /* Quicksilver.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
+		D41F190C16A5B0BC0062DACB /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		D4EB6A3116A5B3F700E47792 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EB6A3216A5B3F700E47792 /* QSBCInterface.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QSBCInterface.xib; sourceTree = "<group>"; };
+		D4EB6A3316A5B3F700E47792 /* QSBCInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBCInterfaceController.h; sourceTree = "<group>"; };
+		D4EB6A3416A5B3F700E47792 /* QSBCInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBCInterfaceController.m; sourceTree = "<group>"; };
+		D4EB6A6616A5B65F00E47792 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D41F18F816A5B0BC0062DACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41F18FF16A5B0BC0062DACB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D41F18EF16A5B0BC0062DACB = {
+			isa = PBXGroup;
+			children = (
+				D4EB6A3116A5B3F700E47792 /* Info.plist */,
+				D4EB6A3216A5B3F700E47792 /* QSBCInterface.xib */,
+				D4EB6A3316A5B3F700E47792 /* QSBCInterfaceController.h */,
+				D4EB6A3416A5B3F700E47792 /* QSBCInterfaceController.m */,
+				D41F190616A5B0BC0062DACB /* Configuration */,
+				D41F190116A5B0BC0062DACB /* Supporting Files */,
+				D41F18FD16A5B0BC0062DACB /* Frameworks */,
+				D41F18FC16A5B0BC0062DACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D41F18FC16A5B0BC0062DACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D41F18FB16A5B0BC0062DACB /* BezelClassic.qsplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D41F18FD16A5B0BC0062DACB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D41F18FE16A5B0BC0062DACB /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D41F190116A5B0BC0062DACB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4EB6A6416A5B65F00E47792 /* en.lproj */,
+			);
+			name = "Supporting Files";
+			path = BezelClassic;
+			sourceTree = "<group>";
+		};
+		D41F190616A5B0BC0062DACB /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D41F190716A5B0BC0062DACB /* Common.xcconfig */,
+				D41F190816A5B0BC0062DACB /* Debug.xcconfig */,
+				D41F190916A5B0BC0062DACB /* Developer.xcconfig */,
+				D41F190A16A5B0BC0062DACB /* QSPlugIn.xcconfig */,
+				D41F190B16A5B0BC0062DACB /* Quicksilver.pch */,
+				D41F190C16A5B0BC0062DACB /* Release.xcconfig */,
+			);
+			name = Configuration;
+			path = /private/tmp/QS/Configuration;
+			sourceTree = "<absolute>";
+		};
+		D4EB6A6416A5B65F00E47792 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D4EB6A6516A5B65F00E47792 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D41F18FA16A5B0BC0062DACB /* BezelClassic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41F191716A5B0BC0062DACB /* Build configuration list for PBXNativeTarget "BezelClassic" */;
+			buildPhases = (
+				D41F18F616A5B0BC0062DACB /* ShellScript */,
+				D41F18F716A5B0BC0062DACB /* Sources */,
+				D41F18F816A5B0BC0062DACB /* Frameworks */,
+				D41F18F916A5B0BC0062DACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BezelClassic;
+			productName = BezelClassic;
+			productReference = D41F18FB16A5B0BC0062DACB /* BezelClassic.qsplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41F18F116A5B0BC0062DACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Quicksilver;
+			};
+			buildConfigurationList = D41F18F416A5B0BC0062DACB /* Build configuration list for PBXProject "BezelClassic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				cs,
+				de,
+				"es-ES",
+				es,
+				et,
+				fr,
+				it,
+				"zh-Hant-TW",
+			);
+			mainGroup = D41F18EF16A5B0BC0062DACB;
+			productRefGroup = D41F18FC16A5B0BC0062DACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D41F18FA16A5B0BC0062DACB /* BezelClassic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D41F18F916A5B0BC0062DACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EB6A3516A5B3F700E47792 /* Info.plist in Resources */,
+				D4EB6A3616A5B3F700E47792 /* QSBCInterface.xib in Resources */,
+				D4EB6A6716A5B65F00E47792 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D41F18F616A5B0BC0062DACB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"$QS_BUILD_ROOT/Tools/bltrversion\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D41F18F716A5B0BC0062DACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EB6A3716A5B3F700E47792 /* QSBCInterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4EB6A6516A5B65F00E47792 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EB6A6616A5B65F00E47792 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D41F191516A5B0BC0062DACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41F190816A5B0BC0062DACB /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D41F191616A5B0BC0062DACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41F190C16A5B0BC0062DACB /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		D41F191816A5B0BC0062DACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41F190A16A5B0BC0062DACB /* QSPlugIn.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D41F191916A5B0BC0062DACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41F190A16A5B0BC0062DACB /* QSPlugIn.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D41F18F416A5B0BC0062DACB /* Build configuration list for PBXProject "BezelClassic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41F191516A5B0BC0062DACB /* Debug */,
+				D41F191616A5B0BC0062DACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41F191716A5B0BC0062DACB /* Build configuration list for PBXNativeTarget "BezelClassic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41F191816A5B0BC0062DACB /* Debug */,
+				D41F191916A5B0BC0062DACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41F18F116A5B0BC0062DACB /* Project object */;
+}
