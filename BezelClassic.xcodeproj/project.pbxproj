@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -110,7 +110,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D41F191716A5B0BC0062DACB /* Build configuration list for PBXNativeTarget "BezelClassic" */;
 			buildPhases = (
-				D41F18F616A5B0BC0062DACB /* ShellScript */,
 				D41F18F716A5B0BC0062DACB /* Sources */,
 				D41F18F816A5B0BC0062DACB /* Frameworks */,
 				D41F18F916A5B0BC0062DACB /* Resources */,
@@ -134,10 +133,11 @@
 				ORGANIZATIONNAME = Quicksilver;
 			};
 			buildConfigurationList = D41F18F416A5B0BC0062DACB /* Build configuration list for PBXProject "BezelClassic" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				cs,
 				de,
@@ -170,22 +170,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		D41F18F616A5B0BC0062DACB /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "\"$QS_BUILD_ROOT/Tools/bltrversion\"";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D41F18F716A5B0BC0062DACB /* Sources */ = {
